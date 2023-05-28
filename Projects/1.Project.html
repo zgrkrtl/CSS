@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Özcan Özgür Kartal | Web Programming First Project</title>
+    <!-- Fonts Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Sansita+Swashed:wght@700&display=swap"
+        rel="stylesheet">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <meta name="keyword" content="HTML5,CSS3,Javascript,Python-Django">
+    <meta name="description" content="Özcan Özgür KARTAL | Web Programming First Project">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- Tablet -->
+    <link rel="stylesheet" media="(max-width:768px)" href="./css/tablet.css">
+    <!-- Mobile -->
+    <link rel="stylesheet" media="(max-width:500px)" href="./css/mobile.css">
+</head>
+
+<body>
+    <header class="bg-dark-blue">
+        <div class="container">
+            <nav id="navbar">
+                <h1 class="heading-small">Özcan Özgür Kartal</h1>
+                <ul>
+                    <li><a href="#home">Ana Sayfa</a></li>
+                    <li><a href="#training">Bilgi</a></li>
+                    <li><a href="#courses">Hareketler</a></li>
+                    <li><a href="#contact">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="home">
+        <img src="./indir.jfif" alt="cartoon">
+        <div class="name text-center">
+            <h2 class="">Özcan Özgür Kartal</h2>
+            <p>Programmer |Computer Engineer| Student</p>
+        </div>
+        <a href="#courses" class="btn btn-primary">Hareketler'e Git</a>
+
+    </section>
+    <section id="training" class="bg-dark-blue">
+        <h3 class="text-center heading-medium">Bilgi</h3>
+        <div class="items">
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Bilgiler1</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, quos.</p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Bilgiler2</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, quos.</p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Bilgiler3</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, quos.</p>
+            </article>
+        </div>
+    </section>
+    <section id="courses">
+        <h3 class="text-center heading-medium">Hareketler</h3>
+        <div class="container">
+            <!-- Course-1 -->
+            <div class="courses">
+                <div class="course">
+                    <div class="course-image">
+                        <img src="./java.png" alt="Java">
+                        <span>Java Programming</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">Full Java Programming Course</div>
+                        <div class="description">Java basics,programming basics, AI, and more...</div>
+                        <div class="instructor">Özcan Özgür Kartal</div>
+                        <div class="rating">4.0(5 votes)</div>
+                    </div>
+
+                </div>
+                <!-- Course-2 -->
+                <div class="course">
+                    <div class="course-image">
+                        <img src="./javascript.jfif" alt="Javascript">
+                        <span>Javascript Programming</span>
+
+                    </div>
+                    <div class="course-info">
+                        <div class="title">Full Javascript Programming Course</div>
+                        <div class="description">Javascript basics,programming basics, Web Programming, and more...
+                        </div>
+                        <div class="instructor">Ömer Kartal</div>
+                        <div class="rating">4.8(15 votes)</div>
+                    </div>
+                </div>
+                <!-- Course-3 -->
+                <div class="course">
+                    <div class="course-image">
+                        <img src="./python.jfif" alt="Python">
+                        <span>Python Programming</span>
+
+                    </div>
+                    <div class="course-info">
+                        <div class="title">Full Python Programming Course</div>
+                        <div class="description">Java basics,programming basics, AI, Data Science...</div>
+                        <div class="instructor">Özlem Kartal</div>
+                        <div class="rating">4.9(50 votes)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="contact" class="bg-dark-blue">
+        <div class="contact-form">
+            <form>
+                <h4 class="text-center heading-medium">Contact Me</h4>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" name="name" id="name" placeholder="Name" />
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" class="form-control" name="email" id="email" placeholder="Email" />
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" class="form-control" rows="10"
+                        placeholder="Your message.."></textarea>
+                </div>
+                <button type="submit" class="btn btn-block">Send</button>
+            </form>
+            <ul>
+                <li>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+        </div>
+
+
+
+    </footer>
+
+</body>
+
+</html>
+<!-- completed as much as it can be considered as comlete-->

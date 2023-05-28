@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive-CSS units</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        .background {
+            background: url("./images/harleyquinn.jpg") center center no-repeat;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            color: #fff;
+            align-items: center;
+            padding: 10rem;
+        }
+
+        h1 {
+            margin-bottom: 1rem;
+            font-size: 3rem;
+        }
+
+        p {
+            font-size: 2rem;
+            letter-spacing: 2px;
+        }
+
+        @media (max-width: 500px) {
+            h1 {
+                margin-bottom: 0.5rem;
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+        }
+
+        /* div {
+            width: 100vh;
+            height: 100vw;
+            background-color: #a7a7a7;
+        } */
+
+        /* html {
+            font-size: 20px;
+        } */
+
+        /* div {
+            font-size: 1.5em;
+
+        } */
+
+        /* rem html etiketinin font-size değerine göre boyutlandırma yapar,em ise parent elemente göre boyutlandırma yapar
+         */
+        /* p {
+            font-size: 50%;
+            padding: 1.5em;
+        } */
+    </style>
+    <!-- Responsive units
+    em,rem,%,vw,vh -->
+</head>
+
+<body>
+
+    <div class="background">
+        <h1>Welcome to the site bitches</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, a.</p>
+    </div>
+
+</body>
+
+</html>

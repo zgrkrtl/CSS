@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Pseudo-Elements</title>
+    <style>
+        .para1 {
+            font-size: 1.5em;
+            letter-spacing: 2px;
+            line-height: 1.5em;
+        }
+
+        /* .para1::first-letter {
+            color: blue;
+            font-size: 50px;
+        }
+
+        .para1::first-line {
+            color: red;
+        } */
+        .para1::after {
+            content: "paragraph ends";
+        }
+
+        .para1::before {
+            content: "paragraph starts ";
+        }
+    </style>
+</head>
+
+<body>
+    <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dolore commodi voluptatibus.
+        Explicabo eligendi reiciendis ratione ipsum ea obcaecati? At porro perspiciatis asperiores saepe dolorum
+        molestiae, suscipit hic aperiam harum inventore cum eos. Possimus distinctio fugit rem officiis voluptatibus
+        nesciunt, aliquid animi consequatur. Temporibus facilis inventore aliquam eveniet. Esse earum soluta blanditiis
+        aperiam recusandae optio ad voluptate! Placeat fuga quas reiciendis doloremque nulla numquam nostrum quam
+        incidunt, eveniet magni, sapiente modi cumque neque. Quidem minima ipsam sint nostrum quasi modi laboriosam
+        suscipit obcaecati culpa fuga, recusandae quisquam velit voluptatibus eum ut ab earum alias quia sunt iusto
+        deleniti unde error?</p>
+</body>
+
+</html>
